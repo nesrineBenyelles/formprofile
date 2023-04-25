@@ -1,0 +1,45 @@
+.navbarCompte {
+    display: flex;
+    align-items: center; /* aligner les éléments verticalement */
+    justify-content: space-between; /* séparer les éléments à parts égales */
+    height: 80px;
+}
+.logo{
+    width: 200px;
+    height: 60px;
+    margin-left: 20px;
+
+
+}
+.navbarCompte{
+    background-color: #1D243B;
+    
+}
+.navbar__menu {
+    display: flex; /* aligner les éléments sur une ligne */
+    list-style: none; /* supprimer les points de la liste */
+    
+  }
+  
+  .navbarCompte__item {
+    margin-right: 40px; /* ajouter une marge droite pour séparer les éléments */
+    margin-top: 20px;
+  }
+  
+  .navbarCompte__link,.navbarCompte__linksousmenu{
+    color: #ffffff; /* changer la couleur du texte pour les liens */
+    text-decoration: none; /* supprimer le soulignement des liens */
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .sousmenu ul li{
+    display: none;
+    height: auto;
+    margin: 0;
+    padding: 0;
+  }
+  .sousmenu:hover ul li{
+    display: block;
+  }
+  
+    
